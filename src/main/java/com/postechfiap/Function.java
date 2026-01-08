@@ -17,7 +17,7 @@ import java.util.Optional;
 
 public class Function {
 
-    @FunctionName("enviaRelatorio")
+    @FunctionName("envia-relatorio")
     public HttpResponseMessage run(
             @HttpTrigger(
                     name = "req",
